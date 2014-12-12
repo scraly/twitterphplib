@@ -16,16 +16,19 @@ include '/home/air/var/www/html/twitter/twitterstats/lib/TwitterApp.php';`
 ## 2. Initialization ##
 
 `// set the consumer key and secret
+
 define('CONSUMER_KEY',      'xxx');
 define('CONSUMER_SECRET',   'xxx');
 
 // our tmhOAuth settings
+
 $config = array(
 'consumer_key'      => CONSUMER_KEY,
 'consumer_secret'   => CONSUMER_SECRET
 );
 
 //init
+
 $ta = new TwitterApp(new tmhOAuth($config));`
 
 ## 3. Examples ##
