@@ -9,8 +9,8 @@ TwitterPHPLib is a Twitter API client written in PHP.
 ## 1. Import ##
 
 ```php
-include '/home/air/var/www/html/lib/tmhOAuth.php';
-include '/home/air/var/www/html/lib/TwitterLib.php';
+include '/home/.../tmhOAuth.php';
+include '/home/.../TwitterLib.php';
 ```
 
 
