@@ -28,7 +28,7 @@ $config = array(
 );
 
 //init and get twitter account informations
-$ta = new TwitterApp(new tmhOAuth($config));
+$ta = new TwitterLib(new tmhOAuth($config));
 $ta->getUsersInfos($access_token, $access_token_secret);
 
 echo "<b>" . $ta->userdata->screen_name . "</b> (" . $ta->userdata->screen_name . ")<br/>";
