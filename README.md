@@ -15,10 +15,11 @@ TwitterPHPLib is a Twitter API client written in PHP.
 
 ## 2. Initialization ##
 
-<code>
+```php
 // set the consumer key and secret
 
 define('CONSUMER_KEY',      'xxx');
+
 define('CONSUMER_SECRET',   'xxx');
 
 // our tmhOAuth settings
@@ -31,7 +32,7 @@ $config = array(
 //init
 
 $ta = new TwitterApp(new tmhOAuth($config));
-</code>
+```
 
 ## 3. Examples ##
 
