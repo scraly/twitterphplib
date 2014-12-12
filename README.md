@@ -1,4 +1,4 @@
-twitterphplib
+TwitterPHPLib
 =============
 
 TwitterPHPLib is a Twitter API client written in PHP.
@@ -10,7 +10,6 @@ TwitterPHPLib is a Twitter API client written in PHP.
 
 ```php
 include '/home/air/var/www/html/twitter/twitterstats/lib/tmhOAuth.php';
-
 include '/home/air/var/www/html/twitter/twitterstats/lib/TwitterApp.php';
 ```
 
@@ -100,4 +99,8 @@ echo "Nb de Mentions à récupérer : " . sizeof($mentions) . "<br/><br/>";
 ```
 
 
+### Send a tweet ###
 
+```php
+$sent = $ta->sendTweet($msg);
+```
